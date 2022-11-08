@@ -1,8 +1,0 @@
-#Faça um programa em python que converta metros para centímetros.
-
-metros = float(input("Quantidade de metros que deseja converter em centímetros: "))
-conversao = metros * 100
-if metros < 0:
-   print("Não existe medida negativa para espaço.")
-else:
-   print("O resultado da conversão de",metros,"m para centímetros é:",conversao,"cm")
